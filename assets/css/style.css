@@ -1,0 +1,47 @@
+.partA h3{
+    text-align: left;
+}
+ p{
+    text-align: justify;
+}
+.partB h3{
+    text-align: right;
+}
+.fixed_div {
+    height: 20vh;
+    width: 100%;
+    position: fixed;
+    bottom: 48%;
+    left: 0;
+    /* border-top: 1px solid black; */
+}
+.fixed_div2 {
+    height: 100%;
+    width: 6%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 0, 0, 0.364);
+}
+.fixed_div2 img {
+    height: 100%;
+    width: 100%;
+}
+.fixed_div3 {
+    height: 100%;
+    width: 6%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255, 0, 0, 0.364);
+}
+.fixed_div3 img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .fixed_div3, .fixed_div2 {
+        width: 18%;
+    }
+  }
