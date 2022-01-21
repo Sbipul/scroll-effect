@@ -6,7 +6,7 @@ window.addEventListener('scroll',()=>{
   if (window.innerWidth <= 425) {
     boy.style.left = ((value/100) * .74) + '%'
   } else {
-    boy.style.left = ((value/100) * 2.96789) + '%'
+    boy.style.left = ((value/100) * 2.89) + '%'
   }
 })
 
